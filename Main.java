@@ -1,7 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args){
     int value = 0;
     int num;
+    
+    System.out.println("What is your name?");
+    
+    Scanner sc = new Scanner(System.in);
+    String name = sc.next();
+    
+    System.out.println("Hello, " + name + "!");
     
     System.out.println("Rolling dice...");
     
