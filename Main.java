@@ -24,9 +24,9 @@ public class Main {
     System.out.println("Total value: " + value);
     
     if(value >= 7){
-      System.out.println("You won.");
+      System.out.println(name + " won.");
     }else{
-      System.out.println("You lost.");
+      System.out.println(name + " lost.");
     }
   }
 }
